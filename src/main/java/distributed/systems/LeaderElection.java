@@ -7,10 +7,10 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * <p>Class represents a basic implementation of a distributed
+ * Class represents a basic implementation of a distributed
  * leader election algorithm. It uses Apache Zookeeper
  * ({@link org.apache.zookeeper}) to deal with distributed
- * co-ordination between different nodes.</p>
+ * co-ordination between different nodes.
  *
  * <p>It provides the following functionality.
  * <ol>
@@ -96,8 +96,8 @@ public class LeaderElection implements Watcher {
     }
 
     /**
-     * <p>Method provides implementation to elect / re-elect a
-     * leader among a cluster of nodes.</p>
+     * Method provides implementation to elect / re-elect a
+     * leader among a cluster of nodes.
      *
      * <p>Each node watches some previously registered node in Zookeeper.
      * If the node is the first to be registered, it is elected
