@@ -6,8 +6,16 @@ import org.apache.zookeeper.Watcher;
 
 import java.io.IOException;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * Caller main method for the distributed leader election algorithm.
+ * Refer {@link distributed.systems.LeaderElection} for the
+ * implementation of this algorithm.
+ *
+ * <p>Please refer the README.md for instructions on how to set
+ * this project up.</p>
+ *
+ * @author Yash Nasery
+ */
 public class Main {
     public static void main(String[] args) {
         LeaderElection leaderElection = new LeaderElection();
